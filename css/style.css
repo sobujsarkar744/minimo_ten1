@@ -1,0 +1,154 @@
+/*#######################################
+Template Name: Minimo || HTML Template;
+Author: Md. Sobuj Sarkar;
+Verson:1.0.0;
+Created: 30 January 2021;
+File Description: Main Css file of the template;
+########################################*/
+
+/*#######################################
+01. General
+########################################*/
+
+body{margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+    font-size: 14px;
+    font-height:24px;
+    color: #626262;
+    box-sizing: border-box
+}
+ .catagories h4{
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  font-size:14px;
+  font-weight:300px;
+  color:#b4ad9e;     }
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+font-size: 30px;
+margin: 0;
+color: #626262
+}
+
+p{font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;}
+
+
+a{color:#626262;
+text-decoration: none;
+font-size: 14px;}
+/*########################################
+          HEADER STYLE START HERE
+#########################################*/
+header{padding:70px 0;}
+
+.container{width:80%;
+margin: 0 auto;
+overflow: hidden;}
+
+.logo{width: 30%;
+float: left;}
+
+
+.logo a{
+font-family: 'Inconsolata', monospace;
+font-weight: 400;
+font-size: 30px;
+text-transform: capitalize;
+color: #000;
+letter-spacing: 5px;}
+
+
+.menu{width: 70%;
+float: right;}
+
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  }
+nav ul li{
+  float: left;
+  }
+nav ul li a{ 
+  text-transform: uppercase;
+padding: 0 60px; }
+
+nav ul li:last-child a{
+  padding-right:0;}
+
+nav ul li a:hover{
+    color: black;}
+
+/*########################################
+          BANNER STYLE START HERE
+#########################################*/
+.BANNER{background-image: url(../images/banner.jpg);
+min-height: 600px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
+
+/*########################################
+          BlOG STYLE START HERE
+#########################################*/
+
+#blog{padding: 95px 0;}
+
+.blog-container{
+  width:80%;
+  margin:0 auto;   }
+
+.title h2{padding:30px 0;}
+.content p{
+    padding-top:17px;
+    padding-bottom: 50px;
+    color: #626262;
+    font-size: 14px;
+    line-height: 26px;
+}
+/*.content{padding:35px 0 50px;}*/
+/*########################################
+          BlOG STYLE START HERE
+#########################################*/
+
+#blog-thumnail{padding: 70px 0;}
+.blog-container{
+    overflow: hidden;
+}
+/*.blog-wrapper{ overflow: hidden;}*/
+
+.blog-left{
+  width: 50%;
+  float: left;
+  
+}
+.blog-right{
+  width: 50%
+  float:right;
+  
+}
+.thumnail img{1width:100%;}
+
+.blog-left .catagories{padding:20px 0;}
+.blog-left .title h2{ padding-top:0; }
+.blog-left .content p{ padding:0;
+padding-bottom: 70px; }
+.blog-right .catagories{padding:20px 0;}
+.blog-right .title h2{ padding-top:0; }
+.blog-right .content p{ padding:0;
+padding-bottom: 70px; }
+
+
+
